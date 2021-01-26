@@ -1,0 +1,81 @@
+\section{Response to Reviewer \#3 (Dingrong Wang)}
+% \subsection*{Overall Comments}
+% \begin{mdframed}
+% \begin{quote}
+% 	 Reviewer \# 3 - Overall Comments here
+% \end{quote}
+% \end{mdframed}
+
+% \subsection{Response} 
+% We would like to thank you for you positive feedback. Your detailed comments have considerably helped with improving the clarity of the revised manuscript.
+
+% \noindent\rule{17cm}{2.0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Reviewer Comment}
+\begin{mdframed}
+\begin{quote}
+The work is very solid and impressive. But I think in order for this paper to be
+published, you still need some revision. For example, you should explain more
+detailly about how to do lemmatization, such as why there still exists a check
+for suffix and prefix after previous two check about prefix and suffix?
+\end{quote}
+\end{mdframed}
+
+\subsection{Response} 
+Further explanations of the methods have been added by creating a more
+sub-sections. The Methodology section in the original manuscript has been
+replaced by steps of the methods so that they can be explained in detail. 
+
+The specific questions regarding the check for suffix and prefix after previous
+two checks have been addressed in the algorithm description in point 6 of the 
+sub-section E. Stemming and Lemmatization Algorithm. Likewise, the code 
+and datasets have been made publicly available
+so that the methods can
+be replicated by the readers easily.\\
+
+\noindent\rule{17cm}{2.0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Reviewer Comment}
+\begin{mdframed}
+\begin{quote}
+	And another question, why do you choose to recombine suffix, but not prefix,
+	is there a combination problem here? Besides, the Jaccard similarity you talk
+	about in the end just concerns the vocabulary info, not the frequency info,
+	right? I think you should explain more about these questions for the reader to
+	get a better understanding.
+\end{quote}
+\end{mdframed}
+
+\subsection{Response}  
+Please refer to the previous response regarding the addressing of questions in
+the algorithm description. This question has also been addressed now. 
+
+The issues with Jaccard similarity and the reason for discarding it for
+classification of texts has been added at the end of the B. Experiment
+sub-section of VI. Results and Discussions section. \\
+
+\noindent\rule{17cm}{2.0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Reviewer Comment}
+\begin{mdframed}
+\begin{quote}
+And if you want to improve your result, I think you should try some deep
+learning method in NLP to dig out more semantic and contextual information to
+construct feature vector and further compute the similarity extent.
+\end{quote}
+\end{mdframed}
+
+\subsection{Response} 
+We agree that there are several deep learning methods which can provide better
+results for plagiarism detection. We have added these methods as part of the
+limitations and future work in the VII. Conclusion section. The current approach
+has produced fair results for the dataset being used, hence we have retained the
+main approach in the paper. However, we intend to use deep learning approaches
+in future for increasing the performance accuracy in more complex dataset.\\
+
+
+\noindent\rule{17cm}{6.0pt}
